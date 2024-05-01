@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { footLinks } from "../../Constants";
+import { footLinks, socialButtons } from "../../Constants";
 
 const Footer = () => {
   return (
@@ -13,9 +13,17 @@ const Footer = () => {
           );
         })}
       </ul>
-      <p className="pt-3 pb-2">
-        <Link to="/about">Tesla © 2024</Link>
-      </p>
+      <ul className="mt-3 pb-3 max-w-32 mx-auto md:w-4/5 grid md:grid-cols-4 grid-cols-2 gap-4">
+        {socialButtons.map((item) => {
+          return (
+            <li key={item}>
+              <a href={item.href}>
+                <i className={item.icon} />
+              </a>
+            </li>
+          );
+        })}
+      </ul>
     </footer>
   );
 };
