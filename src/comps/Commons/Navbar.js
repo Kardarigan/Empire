@@ -16,7 +16,7 @@ const Navbar = () => {
     <>
       <header className="absolute w-full z-50">
         <nav
-          className={`padding-x py-3 w-full z-10 flex-seperate text-slate-50 relative shadowFromTop`}
+          className={`padding-x py-3 w-full z-10 flex-seperate text-slate-50 relative`}
         >
           <Link to="/">
             <h2 className="text-2xl">

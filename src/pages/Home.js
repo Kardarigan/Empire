@@ -1,17 +1,12 @@
-<<<<<<< HEAD
-import { Hero } from "../comps/Portal";
-=======
-import { Hero, Services } from "../comps/Portal";
->>>>>>> e75a9612 (Hero is Done)
+import { Hero, Services, Half } from "../comps/Portal";
+import { lessCode } from "../Constants";
 
 const Home = () => {
   return (
     <>
       <Hero />
-<<<<<<< HEAD
-=======
       <Services />
->>>>>>> e75a9612 (Hero is Done)
+      <Half thing={lessCode} />
     </>
   );
 };

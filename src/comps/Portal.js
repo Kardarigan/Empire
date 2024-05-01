@@ -4,11 +4,7 @@ import Layout from "./Layout";
 import Home from "../pages/Home";
 import Button from "../comps/Commons/Button";
 import Hero from "./Home/Hero";
-<<<<<<< HEAD
-
-export { Navbar, Footer, Home, Layout, Button, Hero };
-=======
 import Services from "./Home/Services";
+import Half from "./Commons/Half";
 
-export { Navbar, Footer, Home, Layout, Button, Hero, Services };
->>>>>>> e75a9612 (Hero is Done)
+export { Navbar, Footer, Home, Layout, Button, Hero, Services, Half };
