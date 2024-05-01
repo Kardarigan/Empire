@@ -1,26 +1,24 @@
 export const navLinks = [
   {
     href: "./vehicles",
-    label: "VEHICLE",
+    label: "درباره",
+    icon: "",
   },
   {
     href: "./energy",
-    label: "ENERGY",
+    label: "خدمات",
+    icon: "",
   },
   {
     href: "./charging",
-    label: "CHARGING",
+    label: "مهارت",
+    icon: "",
   },
   {
     href: "./discover",
-    label: "DISCOVER",
+    label: "روش ها",
+    icon: "",
   },
-];
-
-export const navTools = [
-  { href: "./guid", class: "fal fa-question-circle" },
-  { href: "./language", class: "fal fa-globe" },
-  { href: "./account", class: "fa-light fa-circle-user" },
 ];
 
 export const footLinks = [

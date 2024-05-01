@@ -1,9 +1,9 @@
-import {} from "../comps/Portal";
+import { Hero } from "../comps/Portal";
 
 const Home = () => {
   return (
     <>
-      <h1>Home</h1>
+      <Hero />
     </>
   );
 };
