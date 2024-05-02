@@ -35,11 +35,7 @@ const Navbar = () => {
               );
             })}
           </ul>
-<<<<<<< HEAD
-          <Button label="تماس باما" />
-=======
           <Button customClass="max-md:hidden" label="تماس باما" />
->>>>>>> e75a9612 (Hero is Done)
           <button
             className="md:hidden block transition text-sm font-semibold rounded px-3 py-2 bg-opacity-25 bg-slate-500 hover:bg-opacity-40 backdrop-blur-sm"
             onClick={hamburgerOn}
